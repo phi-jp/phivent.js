@@ -1,0 +1,22 @@
+{
+  "name": "phivent.js",
+  "version": "0.0.1",
+  "description": "part of phina.js",
+  "main": "phivent.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phi-jp/phivent.js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phi-jp/phivent.js/issues"
+  },
+  "homepage": "https://github.com/phi-jp/phivent.js#readme"
+}
