@@ -1,0 +1,27 @@
+<script src='../phivent.js'></script>
+<script>
+
+window.onload = function() {
+  var e = new Phivent();
+  
+  e.one('hoge', function() {
+    console.log('hoge');
+  });
+  
+  e.flare('hoge');
+  setTimeout(function() {
+    e.flare('hoge');
+  });
+  
+  var a = {};
+  
+  Phivent.apply(a);
+  
+  a.one('foo', function() {
+    console.log('foo');
+  });
+  
+  a.flare('foo');
+};
+
+</script>
